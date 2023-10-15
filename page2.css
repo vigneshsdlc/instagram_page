@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	height: 70px;
+	width: 46%;
+	/*background-color: grey;*/
+	margin-left: 200px;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Tilt Neon', sans-serif;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.box
+{
+	height: 65px;
+	width: 60px;
+	/*background-color: pink;*/
+	margin-top: 3px;
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+.circle
+{
+	height: 50px;
+	width: 50px;
+	background: linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+	margin-left: 5px;
+	margin-top: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.img
+{
+	height: 45px;
+	width: 45px;
+	background-size: cover;
+	position: absolute;
+	border-radius: 50%;
+}
+.img.p1
+{
+	background-image: url("ins1.jpeg");
+}
+.img.p2
+{
+	background-image: url("ins2.jpg");
+}
+.img.p3
+{
+	background-image: url("ins3.jpeg");
+}
+.img.p4
+{
+	background-image: url(ins4.jpeg);
+}
+.img.p5
+{
+	background-image: url(ins5.jpg);
+}
+p
+{
+	font-size: 9px;
+	text-align: center;
+}
+.frame
+{
+	height: 280px;
+	width: 45%;
+	/*background-color: gray;*/
+	margin-left: 200px;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.header
+{
+	height: 35px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	align-items: center;
+}
+.header .logo
+{
+	height: 30px;
+	width: 30px;
+	background-image: url("ins2.jpg");
+	background-size: cover;
+	border-radius: 50%;
+
+	justify-content: flex-start;
+}
+.header .logo_name
+{
+	justify-content: flex-start;
+	margin-left: 15px;
+	font-weight: 900;
+	align-items: top;
+}
+.burger
+{
+	display: flex;
+	height: 10px;
+	width: 18px;
+	justify-content: space-evenly;
+	margin-left: 150px;
+}
+.burger span
+{
+	height: 3px;
+	width: 3px;
+	background-color: black;
+	border-radius: 50%;
+}
+.gallery
+{
+	height: 185px;
+	width: 100%;
+	background-color: steelblue;
+	background-size: cover;
+}
+.gallery.g1
+{
+	background-image: url("post2.jpg");
+}
+.gallery.g2
+{
+	background-image: url("post3.jpeg");
+}
+.gallery.g3
+{
+	background-image: url("post4.jpeg");
+}
+.gallery.g4
+{
+	background-image: url("post5.jpg");
+}
+.gallery.g5
+{
+	background-image: url("post7.jpeg");
+}
+.gallery.g6
+{
+	background-image: url("post8.jpeg");
+}
+.gallery.g7
+{
+	background-image: url("post10.jpeg");
+}
+.icons
+{
+	height: 20px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: gray;
+}
+.icons .icon
+{
+	font-size: 9px;
+	font-weight: 800;
+}
+.thoughts
+{
+	display: flex;
+	align-items: center;
+	/*background-color: tomato;*/
+}
+.thoughts .logo
+{
+	height: 24px;
+	width: 24px;
+	background-image: url("ins2.jpg");
+	background-size: cover;
+	border-radius: 50%;
+}
+.thoughts .comments
+{
+	height: 25px;
+	width: 270px;
+	margin-left: 5px;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: gray;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.comments-links
+{
+	display: flex;
+	font-size: 12px;
+	margin: 0 10px;
+}
